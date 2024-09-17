@@ -52,6 +52,8 @@
     font-size: 0.75rem;
     color: #cccccc;
     margin-left: 15px;
+    margin-right: 5px;
+    margin-top: 5px;
 }
 
 .span-location {
@@ -98,7 +100,7 @@
 }
  /** Box 4 **/
 .nav-language {
-    height: 40px;
+    height: 50px;
     width: 70px;
     display: flex;
     align-items: center;
@@ -119,8 +121,16 @@
     border: none;
 }
 
-/** Box 5 **/
+/** Box 5 and 6**/
+.nav-signin,.nav-return {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 50px;
+}
+
 .nav-line1 {
+    display: block;
     font-size: 0.73rem;
 }
 
@@ -128,3 +138,6 @@
     font-size: 0.85rem;
     font-weight: bold;
 }
+
+
+/** Box 7 cart**/
